@@ -1,0 +1,93 @@
+/* Estilos para el contenedor de la imagen */
+.fill-image {
+    width: 523.5px;
+    height: 305px;
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+    display: block; /* Asegura que no haya espacio extra alrededor de la imagen */
+}
+
+.fill-image2 {
+    width: 404px;
+    height: 300px;
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+    display: block; /* Asegura que no haya espacio extra alrededor de la imagen */
+}
+
+.col-centered {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Centra el texto dentro de la columna */
+}
+
+.col-centered p {
+    width: 523.5px; /* Mismo ancho que .fill-image */
+    text-align: justify; /* Justifica el texto para una mejor presentación */
+}
+
+.col-centered2 p {
+    width: 404px; /* Mismo ancho que .fill-image2 */
+}
+
+body {
+    background-color: #FCF3E7;
+}
+
+footer {
+    background-color: initial; /* Mantiene el fondo del footer sin cambios */
+}
+
+/* Sección verde de "Contáctanos" */
+footer .contact-section {
+    background-color: #D9CBA3;
+    padding: 20px;
+    color: black;
+}
+
+/* Botón de enviar correo */
+footer .contact-section .btn {
+    background-color: #516039;
+    border-color: #516039;
+    color: white;
+}
+
+/* Sección blanca con información */
+footer .info-section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: black;
+}
+
+footer h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .contact-section .btn {
+    background-color: #516039;
+    border-color: #516039;
+    color: white;
+    margin-left: 5px; /* Reduce el espacio entre botones */
+}
+
+footer .contact-section .btn:first-child {
+    margin-left: 0; /* Elimina el margen del primer botón */
+}

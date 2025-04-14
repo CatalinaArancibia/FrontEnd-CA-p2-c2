@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Crear Cuenta EcoFood">
+    <meta name="author" content="EcoFood Team">
+    <title>EcoFood - Crear Cuenta</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #FCF3E7;
+            /* Fondo claro */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-signin {
+            width: 500px;
+            padding: 20px;
+            background-color: white;
+            /* Fondo blanco para el formulario */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-signin h1 {
+            color: #516039;
+            /* Verde principal */
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #516039;
+            /* Verde principal */
+            border-color: #516039;
+        }
+
+        .btn-primary:hover {
+            background-color: #3e4d2e;
+            /* Verde más oscuro al pasar el mouse */
+            border-color: #3e4d2e;
+        }
+
+        .form-floating label {
+            color: #6c757d;
+            /* Color gris para los labels */
+        }
+
+        .form-check-label {
+            color: #6c757d;
+            /* Color gris para el texto */
+        }
+
+        .text-body-secondary {
+            color: #6c757d;
+            /* Color gris para el texto del footer */
+        }
+    </style>
+</head>
+
+<body>
+    <main class="form-signin">
+        <form>
+            <img class="mb-4" src="/asset/IMG/logo.png" alt="EcoFood Logo" width="72" height="72">
+            <h1 class="h3 mb-3 fw-normal text-center">Crear Cuenta</h1>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingFirstName" placeholder="Nombre" required>
+                <label for="floatingFirstName">Nombre</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingLastName" placeholder="Apellido" required>
+                <label for="floatingLastName">Apellido</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+                <label for="floatingEmail">Correo Electrónico</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña" required>
+                <label for="floatingPassword">Contraseña</label>
+            </div>
+
+            <button class="btn btn-primary w-100 py-2" type="submit" formaction="index.html">Crear Cuenta</button>
+            <p class="mt-5 mb-3 text-body-secondary text-center">&copy; EcoFood 2025</p>
+        </form>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

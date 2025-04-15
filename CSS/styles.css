@@ -1,40 +1,95 @@
+.ecofood-brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Ultra', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #365038;
+}
+
+.ecofood-brand img {
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+    width: 70px; /* Ajusta el tamaño del logo */
+    height: 70px;
+}
+
+/* Fuente Ecofood NAV */
+.ecofood-brand {
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.titulos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 2rem; /* Espacio encima del título */
+    margin-bottom: 2rem; /* Espacio debajo del título */
+}
+
+.parrafos {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Tabla 1: Misión y Visión */
 /* Estilos para el contenedor de la imagen */
 .fill-image {
     width: 523.5px;
     height: 305px;
-    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
-    display: block; /* Asegura que no haya espacio extra alrededor de la imagen */
-}
-
-.fill-image2 {
-    width: 404px;
-    height: 300px;
-    object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
-    display: block; /* Asegura que no haya espacio extra alrededor de la imagen */
+    object-fit: cover;
+    /* Ajusta la imagen para llenar el contenedor */
+    display: block;
+    /* Asegura que no haya espacio extra alrededor de la imagen */
 }
 
 .col-centered {
     display: flex;
-    flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
-    text-align: center; /* Centra el texto dentro de la columna */
+    flex-direction: column;
+    /* Asegura que los elementos se apilen verticalmente */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    text-align: center;
+    /* Centra el texto dentro de la columna */
 }
 
 .col-centered p {
-    width: 523.5px; /* Mismo ancho que .fill-image */
-    text-align: justify; /* Justifica el texto para una mejor presentación */
+    width: 523.5px;
+    /* Mismo ancho que .fill-image */
+    text-align: justify;
+    /* Justifica el texto para una mejor presentación */
+}
+
+/* Tabla 2: Problematicas a resolver */
+.fill-image2 {
+    width: 404px;
+    height: 300px;
+    object-fit: cover;
+    /* Ajusta la imagen para llenar el contenedor */
+    display: block;
+    /* Asegura que no haya espacio extra alrededor de la imagen */
 }
 
 .col-centered2 p {
-    width: 404px; /* Mismo ancho que .fill-image2 */
+    width: 404px;
+    text-align: justify;
+    /* Mismo ancho que .fill-image2 */
 }
 
+/* Color de la página, solo el body */
 body {
     background-color: #FCF3E7;
 }
 
 footer {
-    background-color: initial; /* Mantiene el fondo del footer sin cambios */
+    background-color: initial;
+    /* Mantiene el fondo del footer sin cambios */
 }
 
 /* Sección verde de "Contáctanos" */
@@ -85,9 +140,11 @@ footer .contact-section .btn {
     background-color: #516039;
     border-color: #516039;
     color: white;
-    margin-left: 5px; /* Reduce el espacio entre botones */
+    margin-left: 5px;
+    /* Reduce el espacio entre botones */
 }
 
 footer .contact-section .btn:first-child {
-    margin-left: 0; /* Elimina el margen del primer botón */
+    margin-left: 0;
+    /* Elimina el margen del primer botón */
 }
